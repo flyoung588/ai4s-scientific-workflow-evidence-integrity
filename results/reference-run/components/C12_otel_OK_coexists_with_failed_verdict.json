@@ -1,0 +1,11 @@
+{
+  "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+  "expectation_met": true,
+  "id": "C12_otel_OK_coexists_with_failed_verdict",
+  "observed": {
+    "exported_spans": 1,
+    "scientific.verdict": "FAILED",
+    "span_status": "OK"
+  },
+  "scope_limit": "OTel describes instrumentation status; a domain-specific attribute carries a distinct verdict, not an automatically validated scientific claim."
+}

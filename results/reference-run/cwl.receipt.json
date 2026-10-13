@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python",
+    "/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/cwl/run_case.py",
+    "--out",
+    "/private/tmp/ai4s-final-clean-20261013/results-main/cwl"
+  ],
+  "end_unix": 1791868766.0176902,
+  "exit_code": 0,
+  "name": "cwl",
+  "start_unix": 1791868754.015483,
+  "stderr": "",
+  "stdout": "none workflow_rc 0 expectation_met True\nforeign-result workflow_rc 0 expectation_met True\ncheckpoint-corrupt workflow_rc 1 expectation_met True\nretry-unsafe workflow_rc 0 expectation_met True\nbroken-link workflow_rc 0 expectation_met True\nnumerical-failure workflow_rc 0 expectation_met True\n"
+}

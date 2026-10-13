@@ -1,0 +1,51 @@
+{
+  "checkpoint_sha256": "393f5e3ac291232a6dcce2c2c75d6b54fba48f47ce4ed13c34cf52c66762fd7b",
+  "checks": {
+    "checkpoint_bytes": true,
+    "code": true,
+    "experiment": true,
+    "input": true,
+    "state_index": true
+  },
+  "effect_attempts": [
+    {
+      "attempt": "1",
+      "command": [
+        "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python",
+        "/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/cwl/worker.py",
+        "effect",
+        "--contract",
+        "/private/tmp/docker_tmpwhylq7a5/stgeaee2739-6169-41aa-87ea-7f25e0768e9a/contract.json",
+        "--attempt",
+        "1",
+        "--fault",
+        "retry-unsafe"
+      ],
+      "exit_code": 75,
+      "stderr": "",
+      "stdout": "COMMIT_COMPLETED_ACK_LOST\n"
+    },
+    {
+      "attempt": "2",
+      "command": [
+        "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python",
+        "/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/cwl/worker.py",
+        "effect",
+        "--contract",
+        "/private/tmp/docker_tmpwhylq7a5/stgeaee2739-6169-41aa-87ea-7f25e0768e9a/contract.json",
+        "--attempt",
+        "2",
+        "--fault",
+        "retry-unsafe"
+      ],
+      "exit_code": 0,
+      "stderr": "",
+      "stdout": "COMMIT_COMPLETED_ACK_RETURNED\n"
+    }
+  ],
+  "effect_count": 2,
+  "execution": "COMPLETED",
+  "fault": "retry-unsafe",
+  "result_sha256": "06b795201f01e104a33bc552fb576b05aeac9d07c8a992db9b38a5957ef7f657",
+  "scientific_status": "NOT_DECIDED_BY_WORKER"
+}

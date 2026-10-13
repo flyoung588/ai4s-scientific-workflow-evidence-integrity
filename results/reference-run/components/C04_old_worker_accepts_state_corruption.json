@@ -1,0 +1,16 @@
+{
+  "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+  "expectation_met": true,
+  "id": "C04_old_worker_accepts_state_corruption",
+  "observed": {
+    "evaluation": {
+      "expected": 767,
+      "observed": 807,
+      "scope": "integer recurrence equality only",
+      "status": "FAILED"
+    },
+    "guard": "CHECKPOINT_BYTES_CHANGED",
+    "worker_rc": 0
+  },
+  "scope_limit": "Input/code hash fields inside a checkpoint do not protect checkpoint state bytes."
+}

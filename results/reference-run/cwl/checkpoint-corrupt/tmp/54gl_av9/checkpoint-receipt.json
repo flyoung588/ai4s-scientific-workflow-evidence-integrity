@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python",
+    "/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/cwl/worker.py",
+    "child-checkpoint",
+    "--input",
+    "/private/tmp/docker_tmp9aw0uwvx/stgc1772f23-326c-483e-8a5c-03ae7ea6aaab/input.json",
+    "--contract",
+    "/private/tmp/docker_tmp9aw0uwvx/stge86e23b1-2e83-4789-8d78-742b52285165/contract.json"
+  ],
+  "controlled_interruption": true,
+  "exit_code": -15,
+  "fault": "checkpoint-corrupt",
+  "science_origin": "SYNTHETIC_FIXTURE",
+  "stderr": "",
+  "stdout": "CHECKPOINT_WRITTEN\n"
+}

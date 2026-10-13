@@ -1,0 +1,19 @@
+{
+  "requirements.txt": "17998a2a4dcfd4514643e09e005640cc3cc3680c319b7010c7a5f1a9ccc9b163",
+  "requirements-components.txt": "208d233d1602ae70ed6b6e195b210c952e8926373a34f4138a178eed336b4bb9",
+  "fixtures/acceptance-contract.json": "85e21993da2c4a81188616f91a1a1e4d56a656422fcc9275c51487ec90f5c71e",
+  "src/components/research.py": "9d817b8841c433c1c91298f2100581b00ea44d0237ab23e4633bcff0fade92a0",
+  "src/components/baseline/checkpoint.json": "318b698c903bc8b78edda3c6efdb98ef41305ef8256f281ada2a3bd31226b3a9",
+  "src/components/baseline/case.py": "f7c9906089f45f55bfb69492469de4204df97daba0fa667f0e898a39c90bcd57",
+  "src/components/baseline/evaluate.py": "f231e689986b91a43a98422bb7fa240cc4f9cf3aa8aab7cd89c4d47e4f0394f3",
+  "src/cwl/worker.py": "28ed0c91ada3b996240a0ddaeb8a2ba10eea817f80c85ac75618e450c4b63eca",
+  "src/cwl/run_case.py": "9d466439f60ebafae3ee74584bb503e7e3272bdd5c35c5436808dee69f9ae099",
+  "src/cwl/audit_native.py": "9375478f204cdaf2b8bf65f9fe1b85e73cea5a564284058540e430c7dc729d46",
+  "src/cwl/verify_existing.py": "a881ce8afcf655a2da898b49a8d526fa6501ee966dd399d38d7d5d7f8d40a514",
+  "src/cwl/evaluator.py": "2b6e8b5ccc8d37bf7a1ae2c695a14ea867b8652fceef7f4b39e806c2d51b5533",
+  "src/cwl/workflow/workflow.cwl": "ab0ba26ae2531b6d543c37ca72e60ac938844b5f5705dbe591ff30824e5a2c92",
+  "src/cwl/workflow/package.cwl": "4eb85e3e62801c3ccb2160bdfe442b823934e7f1f4aeda4228d36ea2d197cf38",
+  "src/cwl/workflow/checkpoint.cwl": "39ae2a9648120fe8a99988288b1df65d7bb7c01675476f8ab7b0cb9b17830cb1",
+  "src/cwl/workflow/resume.cwl": "2fde37309b2d7726fdcef6bffdd7de5ec0adecaf372504c9d8e9276e5b617f89",
+  "src/cwl/workflow/evaluate.cwl": "7374cbc0f7e5cf34856e83a985242ab714ada2ebd29c33fdc216e3b73d13429c"
+}

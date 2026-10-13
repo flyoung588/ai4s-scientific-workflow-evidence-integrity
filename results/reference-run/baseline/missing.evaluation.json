@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python",
+    "/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/components/baseline/evaluate.py",
+    "/private/tmp/ai4s-final-clean-20261013/results-main/baseline/input.json",
+    "/private/tmp/ai4s-final-clean-20261013/results-main/baseline/does-not-exist.json"
+  ],
+  "evaluator_sha256": "f231e689986b91a43a98422bb7fa240cc4f9cf3aa8aab7cd89c4d47e4f0394f3",
+  "exit_code": 2,
+  "stderr": "",
+  "stdout": "{\"reason\": \"RESULT_UNAVAILABLE\", \"status\": \"NOT_EVALUATED\"}\n"
+}

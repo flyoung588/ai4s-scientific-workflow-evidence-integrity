@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python",
+    "/private/tmp/docker_tmpa82e7rc3/stg2397aa9f-b14e-4209-b75f-d909695d0dc9/evaluator.py",
+    "/private/tmp/docker_tmpa82e7rc3/stgca07e760-afef-4753-b441-bbebc8f03990/input.json",
+    "/private/tmp/docker_tmpa82e7rc3/stg0682bf3e-9183-4077-900d-2547b796790e/contract.json",
+    "/private/tmp/docker_tmpa82e7rc3/stged35a760-b945-48af-8af6-e46754b3336f/result.json",
+    "/private/tmp/docker_tmpa82e7rc3/stgab9dd373-fefc-4846-ad74-4d72d347c28f/resume-receipt.json"
+  ],
+  "evaluator_sha256": "2b6e8b5ccc8d37bf7a1ae2c695a14ea867b8652fceef7f4b39e806c2d51b5533",
+  "exit_code": 0,
+  "stderr": "",
+  "stdout": "{\"numeric_status\": \"SUPPORTED_FIXTURE\", \"expected\": 767, \"observed\": 767, \"integrity_status\": \"VERIFIED_LOCAL\", \"checks\": {\"input_binding\": true, \"experiment_binding\": true, \"producer_result_binding\": true, \"checkpoint_binding\": true, \"side_effect_idempotency\": true}, \"claim_disposition\": \"RECORD_SCOPED_FIXTURE\", \"subject_result_sha256\": \"06b795201f01e104a33bc552fb576b05aeac9d07c8a992db9b38a5957ef7f657\", \"real_scientific_status\": \"NOT_EVALUATED\", \"independent_review\": \"NOT_PERFORMED\"}\n"
+}

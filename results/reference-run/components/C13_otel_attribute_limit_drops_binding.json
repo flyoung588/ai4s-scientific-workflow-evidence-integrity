@@ -1,0 +1,13 @@
+{
+  "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+  "expectation_met": true,
+  "id": "C13_otel_attribute_limit_drops_binding",
+  "observed": {
+    "attributes": {
+      "noise.1": "x",
+      "noise.2": "y"
+    },
+    "dropped_attributes": 1
+  },
+  "scope_limit": "This SDK/limit configuration loses an essential evidence link even when the span itself is retained."
+}

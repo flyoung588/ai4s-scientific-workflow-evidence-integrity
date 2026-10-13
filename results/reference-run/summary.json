@@ -1,0 +1,27 @@
+{
+  "L1": "SOFTWARE_BEHAVIOR_CHECKED_FOR_ENUMERATED_CONTROLS",
+  "L2": "LOCAL_RETAINED_BYTES_AND_RELATIONS_CHECKED_NOT_AUTHENTICATED",
+  "L3": "EXACT_SYNTHETIC_INTEGER_CRITERION_ONLY",
+  "L4": "INDEPENDENT_THIRD_PARTY_REPLICATION_NOT_PERFORMED",
+  "acceptance_contract_sha256": "85e21993da2c4a81188616f91a1a1e4d56a656422fcc9275c51487ec90f5c71e",
+  "argo_kubernetes": "ARGO_INTEGRATION_NOT_RUN",
+  "checks": {
+    "baseline_preserved_10": true,
+    "components_original_16": true,
+    "cwl_original_six": true,
+    "cwl_raw_bytes_DB_adjudication": true,
+    "isolated_venv": true,
+    "native_PROV_and_BagIt": true
+  },
+  "components_only": false,
+  "ended_utc": "2026-10-13T05:19:28.779791+00:00",
+  "external_publication": "HOLD_NOT_SENT",
+  "native_audit": 0,
+  "native_execution": 0,
+  "native_requested": true,
+  "original_case_counts_are_not_new_experiments": true,
+  "runner_sha256": "0581c22d37a38dbb534bb3547033b3e878852d9a3f2a5e1ced9b8a6078b93f13",
+  "scientific_discovery": false,
+  "started_utc": "2026-10-13T05:19:09.049217+00:00",
+  "status": "PASS_SCOPED_ENGINEERING_ACCEPTANCE"
+}

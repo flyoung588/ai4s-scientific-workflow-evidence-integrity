@@ -1,0 +1,15 @@
+{
+  "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+  "expectation_met": true,
+  "id": "C01_old_evaluator_accepts_foreign_binding",
+  "observed": {
+    "binding_matches": false,
+    "old_evaluation": {
+      "expected": 767,
+      "observed": 767,
+      "scope": "integer recurrence equality only",
+      "status": "SUPPORTED"
+    }
+  },
+  "scope_limit": "Observed weakness in our old fixture: numerical equality does not validate experiment/input provenance."
+}

@@ -1,0 +1,13 @@
+{
+  "checks": {
+    "checkpoint_bytes": false,
+    "code": true,
+    "experiment": true,
+    "input": true,
+    "state_index": true
+  },
+  "execution": "REJECTED",
+  "exit_code": 22,
+  "fault": "checkpoint-corrupt",
+  "scientific_status": "NOT_EVALUATED"
+}

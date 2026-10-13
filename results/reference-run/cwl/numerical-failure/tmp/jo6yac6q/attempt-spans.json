@@ -1,0 +1,32 @@
+[
+  {
+    "attributes": {
+      "attempt.id": "compute-attempt-2",
+      "experiment.id": "synthetic-experiment-A"
+    },
+    "context": {
+      "span_id": "0x85b7c30284149d45",
+      "trace_id": "0x26cf42fa88a721eb4748eabc53e5aa5a",
+      "trace_state": "[]"
+    },
+    "end_time": "2026-10-13T05:19:25.697511Z",
+    "events": [],
+    "kind": "SpanKind.INTERNAL",
+    "links": [],
+    "name": "resume-and-effect",
+    "parent_id": null,
+    "resource": {
+      "attributes": {
+        "service.name": "unknown_service",
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.39.0"
+      },
+      "schema_url": ""
+    },
+    "start_time": "2026-10-13T05:19:25.577365Z",
+    "status": {
+      "status_code": "OK"
+    }
+  }
+]

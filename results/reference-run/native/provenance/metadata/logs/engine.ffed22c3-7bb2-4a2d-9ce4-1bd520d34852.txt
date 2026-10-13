@@ -1,0 +1,89 @@
+[2026-10-13T05:19:26,212.000000Z] [cwltool] /private/tmp/ai4s-final-clean-20261013/.venv/bin/cwltool --no-container --leave-tmpdir --no-doc-cache --disable-user-provenance --disable-host-provenance --provenance /private/tmp/ai4s-final-clean-20261013/results-main/native/provenance --outdir /private/tmp/ai4s-final-clean-20261013/results-main/native/outputs --tmp-outdir-prefix /private/tmp/ai4s-final-clean-20261013/results-main/native/tmp/ /private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/cwl/workflow/workflow.cwl /private/tmp/ai4s-final-clean-20261013/results-main/cwl/numerical-failure/job.json
+[2026-10-13T05:19:26,213.000000Z] Resolved '/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/cwl/workflow/workflow.cwl' to 'file:///private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/cwl/workflow/workflow.cwl'
+[2026-10-13T05:19:26,677.000000Z] [provenance] Adding to RO file:///private/tmp/ai4s-final-clean-20261013/results-main/cwl/contract.json
+[2026-10-13T05:19:26,678.000000Z] [provenance] Adding to RO file:///private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/cwl/evaluator.py
+[2026-10-13T05:19:26,679.000000Z] [provenance] Adding to RO file:///private/tmp/ai4s-final-clean-20261013/results-main/cwl/input.json
+[2026-10-13T05:19:26,681.000000Z] [provenance] Adding to RO file:///private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/cwl/worker.py
+[2026-10-13T05:19:26,687.000000Z] [workflow ] start
+[2026-10-13T05:19:26,688.000000Z] [workflow ] starting step checkpoint
+[2026-10-13T05:19:26,688.000000Z] [step checkpoint] start
+[2026-10-13T05:19:26,690.000000Z] [job checkpoint] /private/tmp/ai4s-final-clean-20261013/results-main/native/tmp/rvdwyzhd$ /private/tmp/ai4s-final-clean-20261013/.venv/bin/python \
+    /private/tmp/docker_tmpmml06xjq/stge6cb56ec-d156-452a-8970-234e368739f9/worker.py \
+    checkpoint \
+    --input \
+    /private/tmp/docker_tmpmml06xjq/stgcc064ba7-48cb-407b-bc8f-b21f433c75ef/input.json \
+    --contract \
+    /private/tmp/docker_tmpmml06xjq/stgad9e1fc6-18b5-46a7-a04e-542dae013ac5/contract.json \
+    --fault \
+    numerical-failure > /private/tmp/ai4s-final-clean-20261013/results-main/native/tmp/rvdwyzhd/checkpoint.stdout 2> /private/tmp/ai4s-final-clean-20261013/results-main/native/tmp/rvdwyzhd/checkpoint.stderr
+[2026-10-13T05:19:26,818.000000Z] [job checkpoint] completed success
+[2026-10-13T05:19:26,819.000000Z] [step checkpoint] completed success
+[2026-10-13T05:19:26,819.000000Z] [workflow ] starting step resume
+[2026-10-13T05:19:26,819.000000Z] [step resume] start
+[2026-10-13T05:19:26,822.000000Z] [job resume] /private/tmp/ai4s-final-clean-20261013/results-main/native/tmp/x92udgg4$ /private/tmp/ai4s-final-clean-20261013/.venv/bin/python \
+    /private/tmp/docker_tmpj7lf_yrx/stgc524e9e1-052b-4002-8bea-f745f915e4ce/worker.py \
+    resume \
+    --input \
+    /private/tmp/docker_tmpj7lf_yrx/stg9f588636-557d-434e-a1cb-9aa3e10d63b8/input.json \
+    --contract \
+    /private/tmp/docker_tmpj7lf_yrx/stgb82dcb16-00a7-4de2-a29f-0985d2219bd7/contract.json \
+    --fault \
+    numerical-failure \
+    --checkpoint \
+    /private/tmp/docker_tmpj7lf_yrx/stg4f883437-7cf5-4527-a5d0-70a6193dc2db/checkpoint.json \
+    --anchor \
+    /private/tmp/docker_tmpj7lf_yrx/stg46a7b90b-a4af-409a-bbfa-dd56df4fb5a3/anchor.json > /private/tmp/ai4s-final-clean-20261013/results-main/native/tmp/x92udgg4/resume.stdout 2> /private/tmp/ai4s-final-clean-20261013/results-main/native/tmp/x92udgg4/resume.stderr
+[2026-10-13T05:19:27,43.000000Z] [job resume] completed success
+[2026-10-13T05:19:27,44.000000Z] [step resume] completed success
+[2026-10-13T05:19:27,44.000000Z] [workflow ] starting step evaluate
+[2026-10-13T05:19:27,44.000000Z] [step evaluate] start
+[2026-10-13T05:19:27,47.000000Z] [job evaluate] /private/tmp/ai4s-final-clean-20261013/results-main/native/tmp/lk66kdgj$ /private/tmp/ai4s-final-clean-20261013/.venv/bin/python \
+    /private/tmp/docker_tmpam5b9o4i/stge339bef6-345b-43d8-bd77-2cb11c59b022/worker.py \
+    evaluate \
+    --input \
+    /private/tmp/docker_tmpam5b9o4i/stg47491fc8-7ac7-4029-a87c-9a1fd974a301/input.json \
+    --contract \
+    /private/tmp/docker_tmpam5b9o4i/stgb00471c9-6e90-48f8-8559-e0af19df51d9/contract.json \
+    --fault \
+    numerical-failure \
+    --result \
+    /private/tmp/docker_tmpam5b9o4i/stg5b710990-c836-4396-aa09-5c0022fb17ab/result.json \
+    --receipt \
+    /private/tmp/docker_tmpam5b9o4i/stg28591592-9781-4490-a8a0-3fd4afee3469/resume-receipt.json \
+    --evaluator \
+    /private/tmp/docker_tmpam5b9o4i/stga4731f55-5b44-42ae-8be3-4ac923c2c7fa/evaluator.py > /private/tmp/ai4s-final-clean-20261013/results-main/native/tmp/lk66kdgj/evaluate.stdout 2> /private/tmp/ai4s-final-clean-20261013/results-main/native/tmp/lk66kdgj/evaluate.stderr
+[2026-10-13T05:19:27,137.000000Z] [job evaluate] completed success
+[2026-10-13T05:19:27,137.000000Z] [step evaluate] completed success
+[2026-10-13T05:19:27,137.000000Z] [workflow ] starting step package
+[2026-10-13T05:19:27,138.000000Z] [step package] start
+[2026-10-13T05:19:27,142.000000Z] [job package] /private/tmp/ai4s-final-clean-20261013/results-main/native/tmp/bym7zcu_$ /private/tmp/ai4s-final-clean-20261013/.venv/bin/python \
+    /private/tmp/docker_tmpajsk_fxv/stgddeeb4ba-c32b-4668-969b-1349e48cde43/worker.py \
+    package \
+    --input \
+    /private/tmp/docker_tmpajsk_fxv/stge9de0cfa-e6f6-428d-9839-0a4077bd68d0/input.json \
+    --contract \
+    /private/tmp/docker_tmpajsk_fxv/stg814f8519-4f7b-44e9-ae2d-374691be4ca6/contract.json \
+    --fault \
+    numerical-failure \
+    --checkpoint \
+    /private/tmp/docker_tmpajsk_fxv/stg4bee5645-5ba8-440a-ba53-4679bf64bfad/checkpoint.json \
+    --anchor \
+    /private/tmp/docker_tmpajsk_fxv/stg800818f0-ecfc-4d5d-b5c0-ea2541b2d02b/anchor.json \
+    --checkpoint-receipt \
+    /private/tmp/docker_tmpajsk_fxv/stge7ae67b5-690a-457a-a3c1-33c6ff5c465f/checkpoint-receipt.json \
+    --result \
+    /private/tmp/docker_tmpajsk_fxv/stgdad91b1a-fc4b-4b85-8839-73cba30930c0/result.json \
+    --receipt \
+    /private/tmp/docker_tmpajsk_fxv/stgc3b3c33e-1fc0-408b-93a2-300e195d6ab8/resume-receipt.json \
+    --report \
+    /private/tmp/docker_tmpajsk_fxv/stg0cb0f455-e28f-4ec0-83ba-f4464588fe0b/evaluation-report.json \
+    --evaluation-receipt \
+    /private/tmp/docker_tmpajsk_fxv/stg9d81a661-f8d3-44c6-acb9-fc0ce70ddfae/evaluation-receipt.json \
+    --spans \
+    /private/tmp/docker_tmpajsk_fxv/stg5ec232b9-73cc-4e9d-89bd-3e69ee8d78d2/attempt-spans.json \
+    --database \
+    /private/tmp/docker_tmpajsk_fxv/stgd71cebc2-bae6-45df-b87f-abfef2b41c81/effects.db > /private/tmp/ai4s-final-clean-20261013/results-main/native/tmp/bym7zcu_/package.stdout 2> /private/tmp/ai4s-final-clean-20261013/results-main/native/tmp/bym7zcu_/package.stderr
+[2026-10-13T05:19:28,493.000000Z] [job package] completed success
+[2026-10-13T05:19:28,493.000000Z] [step package] completed success
+[2026-10-13T05:19:28,493.000000Z] [workflow ] completed success
+[2026-10-13T05:19:28,609.000000Z] Final process status is success

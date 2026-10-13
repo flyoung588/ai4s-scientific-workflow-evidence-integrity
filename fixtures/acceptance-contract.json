@@ -1,0 +1,52 @@
+{
+  "version": "1.0.0",
+  "frozen_before_final_tests": true,
+  "origin": "SYNTHETIC_FIXTURE",
+  "core_expectations": {
+    "components": [
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "C06",
+      "C07",
+      "C08",
+      "C09",
+      "C10",
+      "C11",
+      "C12",
+      "C13",
+      "C14",
+      "C15",
+      "C16"
+    ],
+    "baseline_cache_checkpoint": 10,
+    "cwl_scenarios": [
+      "none",
+      "foreign-result",
+      "checkpoint-corrupt",
+      "retry-unsafe",
+      "broken-link",
+      "numerical-failure"
+    ]
+  },
+  "native_optional": {
+    "bagit_original": "PASS",
+    "equal_length_tamper": "REJECTED",
+    "prov_activities_minimum": 4
+  },
+  "expected_numbers": {
+    "normal": 767,
+    "fresh_a4": 623,
+    "corrupt_checkpoint_a3": 807,
+    "unsafe_a4_resume": 38,
+    "lru_hidden_dependency_stale": 21,
+    "lru_correct": 28
+  },
+  "negative_expectation_not_scientific_pass": true,
+  "no_argo_k8s_run": true,
+  "L4": "INDEPENDENT_THIRD_PARTY_REPLICATION_NOT_PERFORMED",
+  "contact_status": "ASYNC_CONTACT_HOLD_NOT_SENT",
+  "acceptance": "Exact original predicates AND readback bytes/DB checks; documentation assertions match observations; privacy/path/integrity/ZIP rerun pass"
+}

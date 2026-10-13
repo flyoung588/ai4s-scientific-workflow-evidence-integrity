@@ -1,0 +1,119 @@
+{
+  "argo_k8s": "NOT_TESTED",
+  "expectations_met": 6,
+  "external_contact": "HOLD_NOT_SENT",
+  "independent_review": "NOT_PERFORMED",
+  "scenarios": [
+    {
+      "actual": {
+        "boundary": {
+          "claim_disposition": "RECORD_SCOPED_FIXTURE",
+          "evidence_integrity": "VERIFIED_LOCAL",
+          "execution": "COMPLETED",
+          "extra_resources_authorized": false,
+          "fault": "none",
+          "fixture_numeric_status": "SUPPORTED_FIXTURE",
+          "linkage": "VERIFIED_LOCAL",
+          "real_scientific_status": "NOT_EVALUATED"
+        },
+        "workflow_rc": 0
+      },
+      "expectation_met": true,
+      "scenario": "none"
+    },
+    {
+      "actual": {
+        "boundary": {
+          "claim_disposition": "WITHHOLD_FIXTURE_CLAIM",
+          "evidence_integrity": "REJECTED_BINDING_OR_EFFECT",
+          "execution": "COMPLETED",
+          "extra_resources_authorized": false,
+          "fault": "foreign-result",
+          "fixture_numeric_status": "SUPPORTED_FIXTURE",
+          "linkage": "VERIFIED_LOCAL",
+          "real_scientific_status": "NOT_EVALUATED"
+        },
+        "workflow_rc": 0
+      },
+      "expectation_met": true,
+      "scenario": "foreign-result"
+    },
+    {
+      "actual": {
+        "downstream_bundle_exists": false,
+        "resume_rejections": [
+          {
+            "checks": {
+              "checkpoint_bytes": false,
+              "code": true,
+              "experiment": true,
+              "input": true,
+              "state_index": true
+            },
+            "execution": "REJECTED",
+            "exit_code": 22,
+            "fault": "checkpoint-corrupt",
+            "scientific_status": "NOT_EVALUATED"
+          }
+        ],
+        "workflow_rc": 1
+      },
+      "expectation_met": true,
+      "scenario": "checkpoint-corrupt"
+    },
+    {
+      "actual": {
+        "boundary": {
+          "claim_disposition": "WITHHOLD_FIXTURE_CLAIM",
+          "evidence_integrity": "REJECTED_BINDING_OR_EFFECT",
+          "execution": "COMPLETED",
+          "extra_resources_authorized": false,
+          "fault": "retry-unsafe",
+          "fixture_numeric_status": "SUPPORTED_FIXTURE",
+          "linkage": "VERIFIED_LOCAL",
+          "real_scientific_status": "NOT_EVALUATED"
+        },
+        "workflow_rc": 0
+      },
+      "expectation_met": true,
+      "scenario": "retry-unsafe"
+    },
+    {
+      "actual": {
+        "boundary": {
+          "claim_disposition": "WITHHOLD_INVALID_EVIDENCE_LINK",
+          "evidence_integrity": "VERIFIED_LOCAL",
+          "execution": "COMPLETED",
+          "extra_resources_authorized": false,
+          "fault": "broken-link",
+          "fixture_numeric_status": "SUPPORTED_FIXTURE",
+          "linkage": "REJECTED_LINKAGE",
+          "real_scientific_status": "NOT_EVALUATED"
+        },
+        "workflow_rc": 0
+      },
+      "expectation_met": true,
+      "scenario": "broken-link"
+    },
+    {
+      "actual": {
+        "boundary": {
+          "claim_disposition": "WITHHOLD_FIXTURE_CLAIM",
+          "evidence_integrity": "VERIFIED_LOCAL",
+          "execution": "COMPLETED",
+          "extra_resources_authorized": false,
+          "fault": "numerical-failure",
+          "fixture_numeric_status": "FAILED_FIXTURE",
+          "linkage": "VERIFIED_LOCAL",
+          "real_scientific_status": "NOT_EVALUATED"
+        },
+        "workflow_rc": 0
+      },
+      "expectation_met": true,
+      "scenario": "numerical-failure"
+    }
+  ],
+  "science": "SYNTHETIC_ONLY",
+  "total": 6,
+  "workflow_engine": "ACTUAL_CWLTOOL"
+}

@@ -1,0 +1,16 @@
+{
+  "command": [
+    "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python",
+    "/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/cwl/verify_existing.py",
+    "--run",
+    "/private/tmp/ai4s-final-clean-20261013/results-main/cwl",
+    "--out",
+    "/private/tmp/ai4s-final-clean-20261013/results-main/cwl-adjudication.json"
+  ],
+  "end_unix": 1791868766.051193,
+  "exit_code": 0,
+  "name": "cwl-byte-adjudication",
+  "start_unix": 1791868766.018002,
+  "stderr": "",
+  "stdout": "{\"expectations_met\": 6, \"total\": 6}\n"
+}

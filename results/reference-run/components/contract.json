@@ -1,0 +1,9 @@
+{
+  "comparison": "closed-form exact equality",
+  "experiment": "experiment-A",
+  "independence": "same author; distinct algorithms only; no external independent review",
+  "input_sha256": "ddce54e5245f2c0b3ec33ba3d6a427027b8c8e7f88add12121129b3a87d0f547",
+  "origin": "SYNTHETIC_FIXTURE",
+  "scientific_scope": "integer equality only",
+  "tests": "binding, corruption, hidden dependency, idempotency, sampling, attribute loss, crate packing"
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python",
+    "/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/tests/run_acceptance.py",
+    "--out",
+    "/private/tmp/ai4s-final-clean-20261013/results-main",
+    "--native"
+  ],
+  "start_unix": 1791868748.9937978,
+  "end_unix": 1791868768.8170528,
+  "exit_code": 0,
+  "stdout": "{\n  \"status\": \"PASS_SCOPED_ENGINEERING_ACCEPTANCE\",\n  \"checks\": {\n    \"isolated_venv\": true,\n    \"components_original_16\": true,\n    \"baseline_preserved_10\": true,\n    \"cwl_original_six\": true,\n    \"cwl_raw_bytes_DB_adjudication\": true,\n    \"native_PROV_and_BagIt\": true\n  },\n  \"started_utc\": \"2026-10-13T05:19:09.049217+00:00\",\n  \"ended_utc\": \"2026-10-13T05:19:28.779791+00:00\",\n  \"acceptance_contract_sha256\": \"85e21993da2c4a81188616f91a1a1e4d56a656422fcc9275c51487ec90f5c71e\",\n  \"runner_sha256\": \"0581c22d37a38dbb534bb3547033b3e878852d9a3f2a5e1ced9b8a6078b93f13\",\n  \"components_only\": false,\n  \"native_requested\": true,\n  \"native_execution\": 0,\n  \"native_audit\": 0,\n  \"L1\": \"SOFTWARE_BEHAVIOR_CHECKED_FOR_ENUMERATED_CONTROLS\",\n  \"L2\": \"LOCAL_RETAINED_BYTES_AND_RELATIONS_CHECKED_NOT_AUTHENTICATED\",\n  \"L3\": \"EXACT_SYNTHETIC_INTEGER_CRITERION_ONLY\",\n  \"L4\": \"INDEPENDENT_THIRD_PARTY_REPLICATION_NOT_PERFORMED\",\n  \"argo_kubernetes\": \"ARGO_INTEGRATION_NOT_RUN\",\n  \"scientific_discovery\": false,\n  \"external_publication\": \"HOLD_NOT_SENT\",\n  \"original_case_counts_are_not_new_experiments\": true\n}\n",
+  "stderr": ""
+}

@@ -1,0 +1,125 @@
+{
+  "checks": [
+    {
+      "scenario": "none",
+      "raw_evidence_expectation_met": true,
+      "observed": {
+        "workflow_rc": 0,
+        "value": 767,
+        "DB_rows_directly_read": 1,
+        "report_check_axes": {
+          "checkpoint_binding": true,
+          "experiment_binding": true,
+          "input_binding": true,
+          "producer_result_binding": true,
+          "side_effect_idempotency": true
+        },
+        "all_retained_artifact_digests_match": true,
+        "evaluation_report_subject_binds_actual_result": true,
+        "index_link_binds_actual_result": true
+      }
+    },
+    {
+      "scenario": "foreign-result",
+      "raw_evidence_expectation_met": true,
+      "observed": {
+        "workflow_rc": 0,
+        "value": 767,
+        "DB_rows_directly_read": 1,
+        "report_check_axes": {
+          "checkpoint_binding": true,
+          "experiment_binding": false,
+          "input_binding": false,
+          "producer_result_binding": true,
+          "side_effect_idempotency": true
+        },
+        "all_retained_artifact_digests_match": true,
+        "evaluation_report_subject_binds_actual_result": true,
+        "index_link_binds_actual_result": true
+      }
+    },
+    {
+      "scenario": "checkpoint-corrupt",
+      "raw_evidence_expectation_met": true,
+      "observed": {
+        "workflow_rc": 1,
+        "actual_rejections": [
+          {
+            "checks": {
+              "checkpoint_bytes": false,
+              "code": true,
+              "experiment": true,
+              "input": true,
+              "state_index": true
+            },
+            "execution": "REJECTED",
+            "exit_code": 22,
+            "fault": "checkpoint-corrupt",
+            "scientific_status": "NOT_EVALUATED"
+          }
+        ]
+      }
+    },
+    {
+      "scenario": "retry-unsafe",
+      "raw_evidence_expectation_met": true,
+      "observed": {
+        "workflow_rc": 0,
+        "value": 767,
+        "DB_rows_directly_read": 2,
+        "report_check_axes": {
+          "checkpoint_binding": true,
+          "experiment_binding": true,
+          "input_binding": true,
+          "producer_result_binding": true,
+          "side_effect_idempotency": false
+        },
+        "all_retained_artifact_digests_match": true,
+        "evaluation_report_subject_binds_actual_result": true,
+        "index_link_binds_actual_result": true
+      }
+    },
+    {
+      "scenario": "broken-link",
+      "raw_evidence_expectation_met": true,
+      "observed": {
+        "workflow_rc": 0,
+        "value": 767,
+        "DB_rows_directly_read": 1,
+        "report_check_axes": {
+          "checkpoint_binding": true,
+          "experiment_binding": true,
+          "input_binding": true,
+          "producer_result_binding": true,
+          "side_effect_idempotency": true
+        },
+        "all_retained_artifact_digests_match": true,
+        "evaluation_report_subject_binds_actual_result": true,
+        "index_link_binds_actual_result": false
+      }
+    },
+    {
+      "scenario": "numerical-failure",
+      "raw_evidence_expectation_met": true,
+      "observed": {
+        "workflow_rc": 0,
+        "value": 0,
+        "DB_rows_directly_read": 1,
+        "report_check_axes": {
+          "checkpoint_binding": true,
+          "experiment_binding": true,
+          "input_binding": true,
+          "producer_result_binding": true,
+          "side_effect_idempotency": true
+        },
+        "all_retained_artifact_digests_match": true,
+        "evaluation_report_subject_binds_actual_result": true,
+        "index_link_binds_actual_result": true
+      }
+    }
+  ],
+  "expectations_met": 6,
+  "total": 6,
+  "workflow_rerun": false,
+  "independent_author_review": false
+}

@@ -1,0 +1,229 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.3/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "datePublished": "2026-10-13T05:19:21+00:00",
+            "description": "Actual CWL execution; not real scientific validation.",
+            "hasPart": [
+                {
+                    "@id": "input.json"
+                },
+                {
+                    "@id": "contract.json"
+                },
+                {
+                    "@id": "checkpoint.json"
+                },
+                {
+                    "@id": "anchor.json"
+                },
+                {
+                    "@id": "checkpoint-receipt.json"
+                },
+                {
+                    "@id": "result.json"
+                },
+                {
+                    "@id": "resume-receipt.json"
+                },
+                {
+                    "@id": "evaluation-report.json"
+                },
+                {
+                    "@id": "evaluation-receipt.json"
+                },
+                {
+                    "@id": "attempt-spans.json"
+                },
+                {
+                    "@id": "effects.db"
+                }
+            ],
+            "mentions": [
+                {
+                    "@id": "#action-checkpoint"
+                },
+                {
+                    "@id": "#action-resume"
+                },
+                {
+                    "@id": "#action-evaluation"
+                }
+            ],
+            "name": "Synthetic workflow integrity case"
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.3"
+            }
+        },
+        {
+            "@id": "input.json",
+            "@type": "File"
+        },
+        {
+            "@id": "contract.json",
+            "@type": "File"
+        },
+        {
+            "@id": "checkpoint.json",
+            "@type": "File"
+        },
+        {
+            "@id": "anchor.json",
+            "@type": "File"
+        },
+        {
+            "@id": "checkpoint-receipt.json",
+            "@type": "File"
+        },
+        {
+            "@id": "result.json",
+            "@type": "File"
+        },
+        {
+            "@id": "resume-receipt.json",
+            "@type": "File"
+        },
+        {
+            "@id": "evaluation-report.json",
+            "@type": "File"
+        },
+        {
+            "@id": "evaluation-receipt.json",
+            "@type": "File"
+        },
+        {
+            "@id": "attempt-spans.json",
+            "@type": "File"
+        },
+        {
+            "@id": "effects.db",
+            "@type": "File"
+        },
+        {
+            "@id": "#tool-checkpoint",
+            "@type": "SoftwareApplication",
+            "name": "checkpoint"
+        },
+        {
+            "@id": "#action-checkpoint",
+            "@type": "CreateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "description": "Tool wrapper completed; checkpoint wrapper records its intentionally interrupted child separately.",
+            "instrument": {
+                "@id": "#tool-checkpoint"
+            },
+            "object": [
+                {
+                    "@id": "input.json"
+                },
+                {
+                    "@id": "contract.json"
+                }
+            ],
+            "result": [
+                {
+                    "@id": "checkpoint.json"
+                },
+                {
+                    "@id": "anchor.json"
+                },
+                {
+                    "@id": "checkpoint-receipt.json"
+                }
+            ]
+        },
+        {
+            "@id": "#tool-resume",
+            "@type": "SoftwareApplication",
+            "name": "resume"
+        },
+        {
+            "@id": "#action-resume",
+            "@type": "CreateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "description": "Tool wrapper completed; checkpoint wrapper records its intentionally interrupted child separately.",
+            "instrument": {
+                "@id": "#tool-resume"
+            },
+            "object": [
+                {
+                    "@id": "input.json"
+                },
+                {
+                    "@id": "contract.json"
+                },
+                {
+                    "@id": "checkpoint.json"
+                },
+                {
+                    "@id": "anchor.json"
+                }
+            ],
+            "result": [
+                {
+                    "@id": "result.json"
+                },
+                {
+                    "@id": "resume-receipt.json"
+                },
+                {
+                    "@id": "attempt-spans.json"
+                },
+                {
+                    "@id": "effects.db"
+                }
+            ]
+        },
+        {
+            "@id": "#tool-evaluation",
+            "@type": "SoftwareApplication",
+            "name": "evaluation"
+        },
+        {
+            "@id": "#action-evaluation",
+            "@type": "CreateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "description": "Tool wrapper completed; checkpoint wrapper records its intentionally interrupted child separately.",
+            "instrument": {
+                "@id": "#tool-evaluation"
+            },
+            "object": [
+                {
+                    "@id": "input.json"
+                },
+                {
+                    "@id": "contract.json"
+                },
+                {
+                    "@id": "result.json"
+                },
+                {
+                    "@id": "resume-receipt.json"
+                }
+            ],
+            "result": [
+                {
+                    "@id": "evaluation-report.json"
+                },
+                {
+                    "@id": "evaluation-receipt.json"
+                }
+            ]
+        }
+    ]
+}

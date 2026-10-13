@@ -1,0 +1,32 @@
+[
+  {
+    "attributes": {
+      "experiment.id": "experiment-A",
+      "scientific.verdict": "FAILED"
+    },
+    "context": {
+      "span_id": "0x3ce847710a69c417",
+      "trace_id": "0x26d0ff5fc8c19a86e994b2c3ea7cedfc",
+      "trace_state": "[]"
+    },
+    "end_time": "2026-10-13T05:19:13.649135Z",
+    "events": [],
+    "kind": "SpanKind.INTERNAL",
+    "links": [],
+    "name": "otel-on",
+    "parent_id": null,
+    "resource": {
+      "attributes": {
+        "service.name": "unknown_service",
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.39.0"
+      },
+      "schema_url": ""
+    },
+    "start_time": "2026-10-13T05:19:13.649121Z",
+    "status": {
+      "status_code": "OK"
+    }
+  }
+]

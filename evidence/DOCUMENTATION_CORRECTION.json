@@ -1,0 +1,10 @@
+{
+  "at": "2026-10-13T05:31:21.782038+00:00",
+  "found_by": "independent_archive_reviewer",
+  "issue": "documentation said52 locked requirements;actual48 nonempty pins",
+  "correction": "52 ->48 only; smaller lock19 unchanged",
+  "source_or_test_logic_changed": false,
+  "before_doc_sha256": "9f344f412738f55bbd864278a7dc96c122fd3f99fa57f631122c50a016557e7f",
+  "after_doc_sha256": "214832ab9253638c8aeb76297d6fb30f292ee32b246d71270135b51ff160ba2d",
+  "original_doc_preserved_outside_archive": true
+}

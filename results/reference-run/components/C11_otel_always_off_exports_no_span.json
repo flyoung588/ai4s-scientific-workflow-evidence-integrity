@@ -1,0 +1,10 @@
+{
+  "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+  "expectation_met": true,
+  "id": "C11_otel_always_off_exports_no_span",
+  "observed": {
+    "exported_spans": 0,
+    "sampler": "ALWAYS_OFF"
+  },
+  "scope_limit": "Actual OTel SDK1.39.0, in-memory exporter; no collector/network/exporter loss test."
+}

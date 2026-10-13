@@ -1,0 +1,27 @@
+{
+  "document_url": "https://docs.google.com/document/d/1tI-cVKILZvn6aTuJf0z-xZJFl8gT2g43qn1T5DxfhLI",
+  "revision_id": "AHj4eMRE6SYtVHJiNXqCWbhvhgNIh1tHsXLJorR5blykF78sBbY7-D2G22q_uG01WbVInjM5kAYDD7J5vuO8joaJQwAXatXvLzgnmCr-",
+  "checked_utc": "2026-10-13T05:18:38.830Z",
+  "github_comment_ids": [
+    6109156683,
+    6119080616,
+    6121099728
+  ],
+  "adoption": "NOT_OBSERVED",
+  "target_pages": 5,
+  "sections": [
+    {
+      "section": "4.4 Reproducibility & Provenance",
+      "status": "NOT_STARTED",
+      "owner": "TBD",
+      "approximate_allocation_pages": 0.5
+    },
+    {
+      "section": "5. Case Studies",
+      "status": "NOT_STARTED",
+      "owner": "TBD",
+      "approximate_allocation_pages": "0.5\u20130.75"
+    }
+  ],
+  "allocations_are_estimates": true
+}

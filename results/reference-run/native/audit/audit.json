@@ -1,0 +1,28 @@
+{
+  "bagit_version": "1.9.0",
+  "rdflib_version": "7.6.0",
+  "original_manifest_validation": "PASS",
+  "tampered_manifest_validation": "REJECTED",
+  "changed_relative_file": "data/00/0048ac81d2c127e617971354fe84f2bc12dd7877",
+  "tamper_preserved_length": true,
+  "failure": "Bag validation failed: data/00/0048ac81d2c127e617971354fe84f2bc12dd7877 sha1 validation failed: expected=\"0048ac81d2c127e617971354fe84f2bc12dd7877\" found=\"6aa8abd2d692be02333ba99cca5888b8159a269d\"",
+  "prov_graph_parse": {
+    "triples": 828,
+    "activities": 5,
+    "used_relations": 0,
+    "generation_relations": 0,
+    "qualified_usage_relations": 40,
+    "qualified_generation_relations": 11
+  },
+  "actual_boundary": {
+    "claim_disposition": "WITHHOLD_FIXTURE_CLAIM",
+    "evidence_integrity": "VERIFIED_LOCAL",
+    "execution": "COMPLETED",
+    "extra_resources_authorized": false,
+    "fault": "numerical-failure",
+    "fixture_numeric_status": "FAILED_FIXTURE",
+    "linkage": "VERIFIED_LOCAL",
+    "real_scientific_status": "NOT_EVALUATED"
+  },
+  "scope": "Native workflow provenance and manifest integrity only; default CWL payload SHA1, no authentication or scientific validation"
+}

@@ -1,0 +1,9 @@
+{
+  "attempt": "compute-attempt-2",
+  "checkpoint_sha256": "393f5e3ac291232a6dcce2c2c75d6b54fba48f47ce4ed13c34cf52c66762fd7b",
+  "experiment": "foreign-experiment",
+  "input_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "origin": "SYNTHETIC_FIXTURE",
+  "parent_attempt": "compute-attempt-1",
+  "value": 767
+}

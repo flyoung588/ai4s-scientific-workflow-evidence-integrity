@@ -1,0 +1,17 @@
+{
+  "command": [
+    "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python",
+    "-m",
+    "pip",
+    "check"
+  ],
+  "start_unix": 1791869262.8015518,
+  "end_unix": 1791869263.219598,
+  "exit_code": 0,
+  "stdout": "No broken requirements found.\n",
+  "stderr": "",
+  "declared_environment_change": {
+    "PIP_CACHE_DIR": "isolated temporary cache"
+  },
+  "earlier_cache_warning_receipt_retained_sha256": "b18e31705a5a4c8ca09e0c0f154b6aae0076b9fa7ec3c7bda97b8a148ee15d2d"
+}

@@ -1,0 +1,10 @@
+{
+  "command": [
+    "/private/tmp/ai4s-final-clean-20261013/.venv/bin/cwltool",
+    "--validate",
+    "/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/cwl/workflow/workflow.cwl"
+  ],
+  "exit_code": 0,
+  "stderr": "",
+  "stdout": "\u001b[1;30mINFO\u001b[0m /private/tmp/ai4s-final-clean-20261013/.venv/bin/cwltool 3.3.20260925135507\n\u001b[1;30mINFO\u001b[0m Resolved '/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/cwl/workflow/workflow.cwl' to 'file:///private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/cwl/workflow/workflow.cwl'\n/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/cwl/workflow/workflow.cwl is valid CWL.\n"
+}

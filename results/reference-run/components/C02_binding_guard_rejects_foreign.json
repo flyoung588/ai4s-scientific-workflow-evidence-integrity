@@ -1,0 +1,10 @@
+{
+  "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+  "expectation_met": true,
+  "id": "C02_binding_guard_rejects_foreign",
+  "observed": {
+    "scientific_status": "NOT_EVALUATED",
+    "status": "UNQUALIFIED_BINDING"
+  },
+  "scope_limit": "Trusted reference comes from this local contract; no signature or trusted identity root."
+}

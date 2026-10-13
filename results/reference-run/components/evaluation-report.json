@@ -1,0 +1,6 @@
+{
+  "expected": 767,
+  "observed": 767,
+  "scope": "integer recurrence equality only",
+  "status": "SUPPORTED"
+}

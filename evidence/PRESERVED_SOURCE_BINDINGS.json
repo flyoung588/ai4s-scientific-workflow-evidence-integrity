@@ -1,0 +1,32 @@
+[
+  {
+    "file": "src/cwl/worker.py",
+    "original_sha256": "28ed0c91ada3b996240a0ddaeb8a2ba10eea817f80c85ac75618e450c4b63eca",
+    "packaged_sha256": "28ed0c91ada3b996240a0ddaeb8a2ba10eea817f80c85ac75618e450c4b63eca",
+    "match": true
+  },
+  {
+    "file": "src/cwl/evaluator.py",
+    "original_sha256": "2b6e8b5ccc8d37bf7a1ae2c695a14ea867b8652fceef7f4b39e806c2d51b5533",
+    "packaged_sha256": "2b6e8b5ccc8d37bf7a1ae2c695a14ea867b8652fceef7f4b39e806c2d51b5533",
+    "match": true
+  },
+  {
+    "file": "src/cwl/run_case.py",
+    "original_sha256": "9d466439f60ebafae3ee74584bb503e7e3272bdd5c35c5436808dee69f9ae099",
+    "packaged_sha256": "9d466439f60ebafae3ee74584bb503e7e3272bdd5c35c5436808dee69f9ae099",
+    "match": true
+  },
+  {
+    "file": "src/cwl/verify_existing.py",
+    "original_sha256": "a881ce8afcf655a2da898b49a8d526fa6501ee966dd399d38d7d5d7f8d40a514",
+    "packaged_sha256": "a881ce8afcf655a2da898b49a8d526fa6501ee966dd399d38d7d5d7f8d40a514",
+    "match": true
+  },
+  {
+    "file": "src/cwl/audit_native.py",
+    "original_sha256": "9375478f204cdaf2b8bf65f9fe1b85e73cea5a564284058540e430c7dc729d46",
+    "packaged_sha256": "9375478f204cdaf2b8bf65f9fe1b85e73cea5a564284058540e430c7dc729d46",
+    "match": true
+  }
+]

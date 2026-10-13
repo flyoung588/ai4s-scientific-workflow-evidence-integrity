@@ -1,0 +1,6 @@
+{
+  "attempt": "2",
+  "commit_completed": true,
+  "effect_key": "600fbedf01220b31d8b57c44196c7b3c8c55185d297c83ccb5ca63238efcaae4",
+  "lost_ack_after_commit": false
+}

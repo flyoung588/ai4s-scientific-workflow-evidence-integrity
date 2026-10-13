@@ -1,0 +1,23 @@
+{
+  "command": [
+    "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python",
+    "/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/components/baseline/case.py",
+    "--worker",
+    "--input",
+    "/private/tmp/ai4s-final-clean-20261013/results-main/components/input.json",
+    "--result",
+    "/private/tmp/ai4s-final-clean-20261013/results-main/components/corrupt-resume-result.json",
+    "--resume",
+    "/private/tmp/ai4s-final-clean-20261013/results-main/components/corrupted-checkpoint.json",
+    "--experiment",
+    "experiment-A",
+    "--attempt",
+    "corrupt-resume"
+  ],
+  "end_unix": 1791868753.571758,
+  "id": "old-corrupted-checkpoint",
+  "returncode": 0,
+  "start_unix": 1791868753.536921,
+  "stderr": "",
+  "stdout": ""
+}

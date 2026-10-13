@@ -1,0 +1,11 @@
+{
+  "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+  "expectation_met": true,
+  "id": "C09_scientific_failure_does_not_trigger_exception_retry",
+  "observed": {
+    "actual_attempt_count": 1,
+    "process": "COMPLETED",
+    "scientific_status": "FAILED"
+  },
+  "scope_limit": "Retry configured for execution exceptions; domain failure as a value is a separate application decision."
+}

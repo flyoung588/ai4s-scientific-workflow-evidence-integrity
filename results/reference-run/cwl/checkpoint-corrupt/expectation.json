@@ -1,0 +1,23 @@
+{
+  "actual": {
+    "downstream_bundle_exists": false,
+    "resume_rejections": [
+      {
+        "checks": {
+          "checkpoint_bytes": false,
+          "code": true,
+          "experiment": true,
+          "input": true,
+          "state_index": true
+        },
+        "execution": "REJECTED",
+        "exit_code": 22,
+        "fault": "checkpoint-corrupt",
+        "scientific_status": "NOT_EVALUATED"
+      }
+    ],
+    "workflow_rc": 1
+  },
+  "expectation_met": true,
+  "scenario": "checkpoint-corrupt"
+}

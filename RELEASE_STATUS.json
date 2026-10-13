@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "status": "PUBLISHED",
+  "target": "EXTERNAL_REVIEW_PACKAGE_READY",
+  "publication": "PUBLIC_GITHUB_PERSONAL_TECHNICAL_CASE",
+  "human_gate": "APPROVED",
+  "license": "Apache-2.0 original reproduction code",
+  "internal_clean_reproduction": "PASS_SCOPED_ENGINEERING_ACCEPTANCE",
+  "zip_unpack_reproduction": "PASS_INTERNAL_CLEAN_REPRODUCTION_OF_EXECUTABLE_PAYLOAD",
+  "independent_third_party_replication": "NOT_PERFORMED",
+  "argo_kubernetes": "ARGO_INTEGRATION_NOT_RUN",
+  "workflow_engine": "ACTUAL_CWL_REFERENCE_EXECUTOR_NO_CONTAINER",
+  "scientific_data": "SYNTHETIC_ONLY",
+  "known_production_gaps": [
+    "No authenticated provenance or trustworthy root",
+    "No full hostile-input/schema evaluation",
+    "No hardware power-loss durability or distributed failure test",
+    "No full WRROC profile compliance check",
+    "No real scientific design/causal/novelty/OOD validation"
+  ],
+  "adoption": false,
+  "collaboration": false,
+  "XREM_state_change": false,
+  "machine_QA": "PASS_SCOPED_ENGINEERING_QA",
+  "tested_candidate_zip_sha256": "bfc3f96c9ec20238dbba1abe3865097be672a618546603f798d8517fd787d5ef",
+  "candidate_to_final_changes": "Dependency count correction48, correction receipt, internal QA summary, release metadata and manifest only; no source/test/input/dependency/runtime-result changes",
+  "final_archive_byte_binding": "Recorded in companion final-archive-receipt.json after archive construction",
+  "final_source_runtime_rerun_required": false,
+  "external_publication_authorized": true,
+  "external_review": "PENDING",
+  "personal_outreach": "ASYNC_CONTACT_HOLD_NOT_SENT"
+}

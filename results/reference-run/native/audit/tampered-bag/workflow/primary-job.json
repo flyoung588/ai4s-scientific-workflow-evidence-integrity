@@ -1,0 +1,40 @@
+{
+    "contract": {
+        "class": "File",
+        "location": "../data/1e/1e9e434269d5567827d8d9a7d8993f4853fcb85c",
+        "size": 524,
+        "basename": "contract.json",
+        "nameroot": "contract",
+        "nameext": ".json",
+        "checksum": "sha1$1e9e434269d5567827d8d9a7d8993f4853fcb85c"
+    },
+    "evaluator": {
+        "class": "File",
+        "location": "../data/7a/7acc12b9a5a625fc537a033c636cade3be845278",
+        "size": 1393,
+        "basename": "evaluator.py",
+        "nameroot": "evaluator",
+        "nameext": ".py",
+        "checksum": "sha1$7acc12b9a5a625fc537a033c636cade3be845278"
+    },
+    "fault": "numerical-failure",
+    "input": {
+        "class": "File",
+        "location": "../data/00/0048ac81d2c127e617971354fe84f2bc12dd7877",
+        "size": 209,
+        "basename": "input.json",
+        "nameroot": "input",
+        "nameext": ".json",
+        "checksum": "sha1$0048ac81d2c127e617971354fe84f2bc12dd7877"
+    },
+    "program": {
+        "class": "File",
+        "location": "../data/2b/2b7344b50fd47ed35d575abe0d288c2914445d8e",
+        "size": 9851,
+        "basename": "worker.py",
+        "nameroot": "worker",
+        "nameext": ".py",
+        "checksum": "sha1$2b7344b50fd47ed35d575abe0d288c2914445d8e"
+    },
+    "python": "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python"
+}

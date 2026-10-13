@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://argo-workflows.readthedocs.io/en/release-4.0/retries/",
+    "status": 200,
+    "final_url": "https://argo-workflows.readthedocs.io/en/release-4.0/retries/"
+  },
+  {
+    "url": "https://docs.python.org/3/library/functools.html",
+    "status": 200,
+    "final_url": "https://docs.python.org/3/library/functools.html"
+  },
+  {
+    "url": "https://github.com/LibraryOfCongress/bagit-python",
+    "status": 200,
+    "final_url": "https://github.com/LibraryOfCongress/bagit-python"
+  },
+  {
+    "url": "https://opentelemetry.io/docs/specs/otel/trace/sdk/",
+    "status": 200,
+    "final_url": "https://opentelemetry.io/docs/specs/otel/trace/sdk/"
+  },
+  {
+    "url": "https://www.commonwl.org/user_guide/topics/workflows.html",
+    "status": 200,
+    "final_url": "https://www.commonwl.org/user_guide/topics/workflows.html"
+  },
+  {
+    "url": "https://www.researchobject.org/workflow-run-crate/",
+    "status": 200,
+    "final_url": "https://www.researchobject.org/workflow-run-crate/"
+  },
+  {
+    "url": "https://www.researchobject.org/workflow-run-crate/profiles/process_run_crate/",
+    "status": 200,
+    "final_url": "https://www.researchobject.org/workflow-run-crate/profiles/process_run_crate/"
+  },
+  {
+    "url": "https://www.w3.org/TR/prov-dm/",
+    "status": 200,
+    "final_url": "https://www.w3.org/TR/prov-dm/"
+  }
+]

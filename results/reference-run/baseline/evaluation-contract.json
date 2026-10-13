@@ -1,0 +1,16 @@
+{
+  "claim": "integer recurrence final value",
+  "criterion": "exact integer equality with independently implemented closed form",
+  "evaluator": "evaluate.py",
+  "evaluator_sha256": "f231e689986b91a43a98422bb7fa240cc4f9cf3aa8aab7cd89c4d47e4f0394f3",
+  "excluded": [
+    "physical science",
+    "statistical independence",
+    "scientific discovery",
+    "Argo deployment",
+    "OpenTelemetry deployment",
+    "Kubernetes DRA deployment"
+  ],
+  "origin": "SYNTHETIC_FIXTURE",
+  "supported_scope": "only this deterministic numerical fixture"
+}

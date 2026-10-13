@@ -1,0 +1,11 @@
+{
+  "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+  "expectation_met": true,
+  "id": "C07_real_lru_cache_hidden_dependency",
+  "observed": {
+    "cache_info": "CacheInfo(hits=1, misses=1, maxsize=4, currsize=1)",
+    "cached_after_dependency_change": 21,
+    "explicit_dependency_result": 28
+  },
+  "scope_limit": "Actual CPython lru_cache, not an Argo memoization deployment; demonstrates application-defined key incompleteness."
+}

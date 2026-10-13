@@ -1,0 +1,17 @@
+{
+  "actual": {
+    "boundary": {
+      "claim_disposition": "WITHHOLD_FIXTURE_CLAIM",
+      "evidence_integrity": "REJECTED_BINDING_OR_EFFECT",
+      "execution": "COMPLETED",
+      "extra_resources_authorized": false,
+      "fault": "retry-unsafe",
+      "fixture_numeric_status": "SUPPORTED_FIXTURE",
+      "linkage": "VERIFIED_LOCAL",
+      "real_scientific_status": "NOT_EVALUATED"
+    },
+    "workflow_rc": 0
+  },
+  "expectation_met": true,
+  "scenario": "retry-unsafe"
+}

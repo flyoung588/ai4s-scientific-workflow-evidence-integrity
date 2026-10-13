@@ -1,0 +1,11 @@
+{
+  "evidence_class": "SYNTHETIC_ADAPTIVE_INTERFACE",
+  "expectation_met": true,
+  "id": "C16_completed_execution_different_scientific_actions",
+  "observed": {
+    "binding-invalid": "WITHHOLD_CLAIM_REPAIR_BINDING",
+    "numerical-failed": "RECORD_NEGATIVE_RETURN_TO_PORTFOLIO",
+    "numerical-supported": "RECORD_SCOPED_RESULT_RETURN_TO_PORTFOLIO"
+  },
+  "scope_limit": "Controlled interface demonstration based on actual evaluator results; no autonomous experiment generation, search superiority or RSI evidence."
+}

@@ -1,0 +1,68 @@
+[
+  {
+    "id": "argo-retry",
+    "url": "https://argo-workflows.readthedocs.io/en/release-4.0/retries/",
+    "fetched_utc": "2026-10-13T05:12:04.392809+00:00",
+    "failure": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "argo-memo",
+    "url": "https://argo-workflows.readthedocs.io/en/latest/memoization/",
+    "fetched_utc": "2026-10-13T05:12:04.393097+00:00",
+    "failure": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "k8s-jobs",
+    "url": "https://kubernetes.io/docs/concepts/workloads/controllers/job/",
+    "fetched_utc": "2026-10-13T05:12:04.393235+00:00",
+    "status": 200,
+    "final_url": "https://kubernetes.io/docs/concepts/workloads/controllers/job/",
+    "sha256": "e322817d904289a8471177c67173313b2308cfb2b8ec30152442856905d0cbb9",
+    "bytes": 634466
+  },
+  {
+    "id": "otel-sdk",
+    "url": "https://opentelemetry.io/docs/specs/otel/trace/sdk/",
+    "fetched_utc": "2026-10-13T05:12:04.393353+00:00",
+    "status": 200,
+    "final_url": "https://opentelemetry.io/docs/specs/otel/trace/sdk/",
+    "sha256": "1e611a96346041ea50db6790ee9d63f374ca42ec8e8f9492bbd3c2f73d7b61b9",
+    "bytes": 155530
+  },
+  {
+    "id": "prov-dm",
+    "url": "https://www.w3.org/TR/prov-dm/",
+    "fetched_utc": "2026-10-13T05:12:04.393473+00:00",
+    "status": 200,
+    "final_url": "https://www.w3.org/TR/prov-dm/",
+    "sha256": "5c925c21bc96c285b25017c3b90d82cf74251d07713b71fcb81ca60f873c9e88",
+    "bytes": 271572
+  },
+  {
+    "id": "wrroc-process",
+    "url": "https://www.researchobject.org/workflow-run-crate/profiles/process_run_crate/",
+    "fetched_utc": "2026-10-13T05:12:06.092723+00:00",
+    "status": 200,
+    "final_url": "https://www.researchobject.org/workflow-run-crate/profiles/process_run_crate/",
+    "sha256": "f7ea57f6cf8636145517dbe1e6305f8323328abe4f00fc5474af98dda088ad7c",
+    "bytes": 60167
+  },
+  {
+    "id": "cwl-reference",
+    "url": "https://github.com/common-workflow-language/cwltool",
+    "fetched_utc": "2026-10-13T05:12:06.095402+00:00",
+    "status": 200,
+    "final_url": "https://github.com/common-workflow-language/cwltool",
+    "sha256": "abca9e3e8d7e2cb4856262f5fa0a2b12d6d4519f3023c159441eba05ce289c00",
+    "bytes": 541700
+  },
+  {
+    "id": "bagit",
+    "url": "https://github.com/LibraryOfCongress/bagit-python",
+    "fetched_utc": "2026-10-13T05:12:06.863188+00:00",
+    "status": 200,
+    "final_url": "https://github.com/LibraryOfCongress/bagit-python",
+    "sha256": "5696fd2840c92b51b4627f1d285a498bfd0c67a3c38d212053f7a563aa830592",
+    "bytes": 322242
+  }
+]

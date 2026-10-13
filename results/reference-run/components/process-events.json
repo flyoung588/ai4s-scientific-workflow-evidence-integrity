@@ -1,0 +1,90 @@
+[
+  {
+    "command": [
+      "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python",
+      "/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/components/baseline/evaluate.py",
+      "/private/tmp/ai4s-final-clean-20261013/results-main/components/input.json",
+      "/private/tmp/ai4s-final-clean-20261013/results-main/components/foreign-result.json"
+    ],
+    "end_unix": 1791868753.5126688,
+    "id": "old-evaluator-foreign",
+    "returncode": 0,
+    "start_unix": 1791868753.48507,
+    "stderr": "",
+    "stdout": "{\"expected\": 767, \"observed\": 767, \"scope\": \"integer recurrence equality only\", \"status\": \"SUPPORTED\"}\n"
+  },
+  {
+    "command": [
+      "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python",
+      "/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/components/baseline/evaluate.py",
+      "/private/tmp/ai4s-final-clean-20261013/results-main/components/aliased-input.json",
+      "/private/tmp/ai4s-final-clean-20261013/results-main/components/baseline-result.json"
+    ],
+    "end_unix": 1791868753.53564,
+    "id": "old-evaluator-alias",
+    "returncode": 0,
+    "start_unix": 1791868753.513974,
+    "stderr": "",
+    "stdout": "{\"expected\": 767, \"observed\": 767, \"scope\": \"integer recurrence equality only\", \"status\": \"SUPPORTED\"}\n"
+  },
+  {
+    "command": [
+      "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python",
+      "/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/components/baseline/case.py",
+      "--worker",
+      "--input",
+      "/private/tmp/ai4s-final-clean-20261013/results-main/components/input.json",
+      "--result",
+      "/private/tmp/ai4s-final-clean-20261013/results-main/components/corrupt-resume-result.json",
+      "--resume",
+      "/private/tmp/ai4s-final-clean-20261013/results-main/components/corrupted-checkpoint.json",
+      "--experiment",
+      "experiment-A",
+      "--attempt",
+      "corrupt-resume"
+    ],
+    "end_unix": 1791868753.571758,
+    "id": "old-corrupted-checkpoint",
+    "returncode": 0,
+    "start_unix": 1791868753.536921,
+    "stderr": "",
+    "stdout": ""
+  },
+  {
+    "command": [
+      "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python",
+      "/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/components/baseline/evaluate.py",
+      "/private/tmp/ai4s-final-clean-20261013/results-main/components/input.json",
+      "/private/tmp/ai4s-final-clean-20261013/results-main/components/corrupt-resume-result.json"
+    ],
+    "end_unix": 1791868753.592435,
+    "id": "old-corrupted-evaluation",
+    "returncode": 1,
+    "start_unix": 1791868753.572105,
+    "stderr": "",
+    "stdout": "{\"expected\": 767, \"observed\": 807, \"scope\": \"integer recurrence equality only\", \"status\": \"FAILED\"}\n"
+  },
+  {
+    "command": [
+      "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python",
+      "/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/components/baseline/case.py",
+      "--worker",
+      "--input",
+      "/private/tmp/ai4s-final-clean-20261013/results-main/components/input.json",
+      "--result",
+      "/private/tmp/ai4s-final-clean-20261013/results-main/components/relabeled-result.json",
+      "--resume",
+      "/private/tmp/ai4s-final-clean-20261013/results-main/components/original-checkpoint.json",
+      "--experiment",
+      "new-independent-experiment",
+      "--attempt",
+      "relabel"
+    ],
+    "end_unix": 1791868753.6252859,
+    "id": "old-relabeled-checkpoint",
+    "returncode": 0,
+    "start_unix": 1791868753.593024,
+    "stderr": "",
+    "stdout": ""
+  }
+]

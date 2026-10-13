@@ -1,0 +1,10 @@
+{
+  "criterion": "exact integer equality AND explicit local evidence checks",
+  "evaluator_sha256": "2b6e8b5ccc8d37bf7a1ae2c695a14ea867b8652fceef7f4b39e806c2d51b5533",
+  "experiment": "synthetic-experiment-A",
+  "independence": "same author; no independent data/reviewer",
+  "input_sha256": "ddce54e5245f2c0b3ec33ba3d6a427027b8c8e7f88add12121129b3a87d0f547",
+  "origin": "SYNTHETIC_FIXTURE",
+  "real_scientific_claim": "NOT_EVALUATED",
+  "worker_sha256": "28ed0c91ada3b996240a0ddaeb8a2ba10eea817f80c85ac75618e450c4b63eca"
+}

@@ -1,0 +1,17 @@
+{
+  "checks": {
+    "checkpoint_binding": true,
+    "experiment_binding": true,
+    "input_binding": true,
+    "producer_result_binding": true,
+    "side_effect_idempotency": true
+  },
+  "claim_disposition": "RECORD_SCOPED_FIXTURE",
+  "expected": 767,
+  "independent_review": "NOT_PERFORMED",
+  "integrity_status": "VERIFIED_LOCAL",
+  "numeric_status": "SUPPORTED_FIXTURE",
+  "observed": 767,
+  "real_scientific_status": "NOT_EVALUATED",
+  "subject_result_sha256": "06b795201f01e104a33bc552fb576b05aeac9d07c8a992db9b38a5957ef7f657"
+}

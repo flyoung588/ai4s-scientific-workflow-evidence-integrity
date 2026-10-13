@@ -1,0 +1,11 @@
+{
+  "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+  "expectation_met": true,
+  "id": "C14_rocrate_packages_binding_invalid_result",
+  "observed": {
+    "application_binding": "UNQUALIFIED_BINDING",
+    "reload": "SUCCESS",
+    "serialization": "SUCCESS"
+  },
+  "scope_limit": "Actual rocrate-py0.16.0 serializer/reloader. Not a full Process Run profile validator; packaging does not establish scientific validity."
+}

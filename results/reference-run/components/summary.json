@@ -1,0 +1,279 @@
+{
+  "actual_product_defects_claimed": false,
+  "checks": [
+    {
+      "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+      "expectation_met": true,
+      "id": "C01_old_evaluator_accepts_foreign_binding",
+      "observed": {
+        "binding_matches": false,
+        "old_evaluation": {
+          "expected": 767,
+          "observed": 767,
+          "scope": "integer recurrence equality only",
+          "status": "SUPPORTED"
+        }
+      },
+      "scope_limit": "Observed weakness in our old fixture: numerical equality does not validate experiment/input provenance."
+    },
+    {
+      "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+      "expectation_met": true,
+      "id": "C02_binding_guard_rejects_foreign",
+      "observed": {
+        "scientific_status": "NOT_EVALUATED",
+        "status": "UNQUALIFIED_BINDING"
+      },
+      "scope_limit": "Trusted reference comes from this local contract; no signature or trusted identity root."
+    },
+    {
+      "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+      "expectation_met": true,
+      "id": "C03_equal_value_different_input_binding",
+      "observed": {
+        "new_input_hash": "03a883bdfca0b452f3b11df1398b7e7b942f84135b6ed6d4badc3f82ee9b57fc",
+        "old_evaluation": {
+          "expected": 767,
+          "observed": 767,
+          "scope": "integer recurrence equality only",
+          "status": "SUPPORTED"
+        },
+        "old_input_hash": "ddce54e5245f2c0b3ec33ba3d6a427027b8c8e7f88add12121129b3a87d0f547"
+      },
+      "scope_limit": "Same numerical answer can be valid for both inputs; it is not evidence that the old artifact was produced from the new bytes."
+    },
+    {
+      "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+      "expectation_met": true,
+      "id": "C04_old_worker_accepts_state_corruption",
+      "observed": {
+        "evaluation": {
+          "expected": 767,
+          "observed": 807,
+          "scope": "integer recurrence equality only",
+          "status": "FAILED"
+        },
+        "guard": "CHECKPOINT_BYTES_CHANGED",
+        "worker_rc": 0
+      },
+      "scope_limit": "Input/code hash fields inside a checkpoint do not protect checkpoint state bytes."
+    },
+    {
+      "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+      "expectation_met": true,
+      "id": "C05_old_worker_allows_experiment_relabel",
+      "observed": {
+        "guard": "EXPERIMENT_MISMATCH",
+        "result": {
+          "attempt": "relabel",
+          "experiment": "new-independent-experiment",
+          "input_sha256": "ddce54e5245f2c0b3ec33ba3d6a427027b8c8e7f88add12121129b3a87d0f547",
+          "value": 767
+        }
+      },
+      "scope_limit": "New ID cannot make continuation independent; real identity migration needs explicit relation, not silent relabel."
+    },
+    {
+      "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+      "expectation_met": true,
+      "id": "C06_rng_continuity_requires_rng_state",
+      "observed": {
+        "clean": [
+          6583,
+          4846,
+          3605,
+          423,
+          5244,
+          8719,
+          1934,
+          5708,
+          8731,
+          1230,
+          6216,
+          6276,
+          2740,
+          1764,
+          8901,
+          6587,
+          338,
+          405,
+          973,
+          4214
+        ],
+        "missing_state_resume": [
+          6583,
+          4846,
+          3605,
+          423,
+          5244,
+          8719,
+          1934,
+          5708,
+          6583,
+          4846,
+          3605,
+          423,
+          5244,
+          8719,
+          1934,
+          5708,
+          8731,
+          1230,
+          6216,
+          6276
+        ],
+        "restored_resume": [
+          6583,
+          4846,
+          3605,
+          423,
+          5244,
+          8719,
+          1934,
+          5708,
+          8731,
+          1230,
+          6216,
+          6276,
+          2740,
+          1764,
+          8901,
+          6587,
+          338,
+          405,
+          973,
+          4214
+        ],
+        "state_sha256": "17214dab081942b920fc620c1f6055c8e8cd57643d5264f7d512180ecaf71873"
+      },
+      "scope_limit": "Actual Python random state only; GPU/distributed RNG and cross-version portability are untested."
+    },
+    {
+      "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+      "expectation_met": true,
+      "id": "C07_real_lru_cache_hidden_dependency",
+      "observed": {
+        "cache_info": "CacheInfo(hits=1, misses=1, maxsize=4, currsize=1)",
+        "cached_after_dependency_change": 21,
+        "explicit_dependency_result": 28
+      },
+      "scope_limit": "Actual CPython lru_cache, not an Argo memoization deployment; demonstrates application-defined key incompleteness."
+    },
+    {
+      "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+      "expectation_met": true,
+      "id": "C08_retry_repeats_committed_effect",
+      "observed": {
+        "safe_rows": 1,
+        "tenacity_attempts_safe": [
+          1,
+          2
+        ],
+        "tenacity_attempts_unsafe": [
+          1,
+          2
+        ],
+        "unsafe_rows": 2
+      },
+      "scope_limit": "Actual Tenacity and SQLite; not K8s/Argo exactly-once test. Unique effect key mitigates this DB case, not all external side effects."
+    },
+    {
+      "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+      "expectation_met": true,
+      "id": "C09_scientific_failure_does_not_trigger_exception_retry",
+      "observed": {
+        "actual_attempt_count": 1,
+        "process": "COMPLETED",
+        "scientific_status": "FAILED"
+      },
+      "scope_limit": "Retry configured for execution exceptions; domain failure as a value is a separate application decision."
+    },
+    {
+      "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+      "expectation_met": true,
+      "id": "C10_sqlite_uncommitted_crash_recovery",
+      "observed": {
+        "child_rc": -9,
+        "recovered": [
+          8,
+          123
+        ],
+        "stderr": ""
+      },
+      "scope_limit": "Real SIGKILL rollback with local SQLite; does not test power-loss/fsync/hardware durability."
+    },
+    {
+      "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+      "expectation_met": true,
+      "id": "C11_otel_always_off_exports_no_span",
+      "observed": {
+        "exported_spans": 0,
+        "sampler": "ALWAYS_OFF"
+      },
+      "scope_limit": "Actual OTel SDK1.39.0, in-memory exporter; no collector/network/exporter loss test."
+    },
+    {
+      "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+      "expectation_met": true,
+      "id": "C12_otel_OK_coexists_with_failed_verdict",
+      "observed": {
+        "exported_spans": 1,
+        "scientific.verdict": "FAILED",
+        "span_status": "OK"
+      },
+      "scope_limit": "OTel describes instrumentation status; a domain-specific attribute carries a distinct verdict, not an automatically validated scientific claim."
+    },
+    {
+      "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+      "expectation_met": true,
+      "id": "C13_otel_attribute_limit_drops_binding",
+      "observed": {
+        "attributes": {
+          "noise.1": "x",
+          "noise.2": "y"
+        },
+        "dropped_attributes": 1
+      },
+      "scope_limit": "This SDK/limit configuration loses an essential evidence link even when the span itself is retained."
+    },
+    {
+      "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+      "expectation_met": true,
+      "id": "C14_rocrate_packages_binding_invalid_result",
+      "observed": {
+        "application_binding": "UNQUALIFIED_BINDING",
+        "reload": "SUCCESS",
+        "serialization": "SUCCESS"
+      },
+      "scope_limit": "Actual rocrate-py0.16.0 serializer/reloader. Not a full Process Run profile validator; packaging does not establish scientific validity."
+    },
+    {
+      "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+      "expectation_met": true,
+      "id": "C15_rocrate_reload_does_not_verify_external_digest",
+      "observed": {
+        "actual_sha256": "565c9dceef4f39051ad24ce0c84b7bed86a8870bea3a7372d4c8e32f32a5ccd6",
+        "reload": "SUCCESS",
+        "trusted_reference_sha256": "ddce54e5245f2c0b3ec33ba3d6a427027b8c8e7f88add12121129b3a87d0f547"
+      },
+      "scope_limit": "Specific library read operation without supplied checksum verification; not evidence that RO-Crate standards or all validators lack integrity support."
+    },
+    {
+      "evidence_class": "SYNTHETIC_ADAPTIVE_INTERFACE",
+      "expectation_met": true,
+      "id": "C16_completed_execution_different_scientific_actions",
+      "observed": {
+        "binding-invalid": "WITHHOLD_CLAIM_REPAIR_BINDING",
+        "numerical-failed": "RECORD_NEGATIVE_RETURN_TO_PORTFOLIO",
+        "numerical-supported": "RECORD_SCOPED_RESULT_RETURN_TO_PORTFOLIO"
+      },
+      "scope_limit": "Controlled interface demonstration based on actual evaluator results; no autonomous experiment generation, search superiority or RSI evidence."
+    }
+  ],
+  "expectations_met": 16,
+  "external_contact": "HOLD_NOT_SENT",
+  "independent_review": "NOT_PERFORMED",
+  "real_scientific_validation": false,
+  "total": 16,
+  "xrem_adoption": "NOT_REQUESTED_NOT_GRANTED"
+}

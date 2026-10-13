@@ -1,0 +1,9 @@
+{
+  "allocation_effect": "NONE",
+  "feedback_exposure": "ALL_SYNTHETIC_INPUTS_ALREADY_SEEN",
+  "transitions": {
+    "binding-invalid": "WITHHOLD_CLAIM_REPAIR_BINDING",
+    "numerical-failed": "RECORD_NEGATIVE_RETURN_TO_PORTFOLIO",
+    "numerical-supported": "RECORD_SCOPED_RESULT_RETURN_TO_PORTFOLIO"
+  }
+}

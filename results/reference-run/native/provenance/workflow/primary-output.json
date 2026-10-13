@@ -1,0 +1,109 @@
+{
+    "bundle": {
+        "basename": "bundle",
+        "nameroot": "bundle",
+        "nameext": "",
+        "class": "Directory",
+        "@id": "urn:uuid:14179cc7-9a00-440b-9ab4-ad6f222918cd",
+        "listing": [
+            {
+                "class": "File",
+                "location": "../data/64/64cad5a49aa4aaa04ee87ba9626f5ee103140f7f",
+                "basename": "anchor.json",
+                "checksum": "sha1$64cad5a49aa4aaa04ee87ba9626f5ee103140f7f",
+                "@id": "urn:uuid:cae35e61-ccd4-4dd2-8325-11fd74d5110a"
+            },
+            {
+                "class": "File",
+                "location": "../data/bf/bf64d4c553440701ec044bfce219b97bb018eeec",
+                "basename": "checkpoint.json",
+                "checksum": "sha1$bf64d4c553440701ec044bfce219b97bb018eeec",
+                "@id": "urn:uuid:da67900b-1061-420b-826b-66589ffe942b"
+            },
+            {
+                "class": "File",
+                "location": "../data/1e/1e300f9665cd1606e62d1091c8c2d3797d93c2f7",
+                "basename": "result.json",
+                "checksum": "sha1$1e300f9665cd1606e62d1091c8c2d3797d93c2f7",
+                "@id": "urn:uuid:68c0858a-fd82-4c54-878f-84e16e3d47cd"
+            },
+            {
+                "class": "File",
+                "location": "../data/99/9925c68aab1d2837d102075ec6e06d0efd297884",
+                "basename": "evidence-index.json",
+                "checksum": "sha1$9925c68aab1d2837d102075ec6e06d0efd297884",
+                "@id": "urn:uuid:6b62d473-b70f-4db5-8f9e-a76321ff56c1"
+            },
+            {
+                "class": "File",
+                "location": "../data/00/0048ac81d2c127e617971354fe84f2bc12dd7877",
+                "basename": "input.json",
+                "checksum": "sha1$0048ac81d2c127e617971354fe84f2bc12dd7877",
+                "@id": "urn:uuid:050e4b60-f12c-4a84-8056-8460c968c328"
+            },
+            {
+                "class": "File",
+                "location": "../data/27/27611866233bd20e547af88d8711b284e8ef297d",
+                "basename": "evaluation-receipt.json",
+                "checksum": "sha1$27611866233bd20e547af88d8711b284e8ef297d",
+                "@id": "urn:uuid:db827743-f9f1-4bf3-b328-97dbedb273fb"
+            },
+            {
+                "class": "File",
+                "location": "../data/7e/7ecc0ec33b79bd810d6f4503432f796a0f8a8ec1",
+                "basename": "resume-receipt.json",
+                "checksum": "sha1$7ecc0ec33b79bd810d6f4503432f796a0f8a8ec1",
+                "@id": "urn:uuid:fb5e8593-c36c-4b21-94e6-18d991d2758e"
+            },
+            {
+                "class": "File",
+                "location": "../data/f4/f4d08b3195e383ecae44b881a8ec4ded5ba9bae0",
+                "basename": "evaluation-report.json",
+                "checksum": "sha1$f4d08b3195e383ecae44b881a8ec4ded5ba9bae0",
+                "@id": "urn:uuid:35fb6580-7ac2-48b1-9015-1f8acf233302"
+            },
+            {
+                "class": "File",
+                "location": "../data/af/afbc8233490f22d3985bc09112fa1a921f967c0c",
+                "basename": "attempt-spans.json",
+                "checksum": "sha1$afbc8233490f22d3985bc09112fa1a921f967c0c",
+                "@id": "urn:uuid:abec7333-52e6-4e19-8b0d-f65bd6e3e846"
+            },
+            {
+                "class": "File",
+                "location": "../data/69/69cf2c234645cad678419ff6abffac90455e2fec",
+                "basename": "effects.db",
+                "checksum": "sha1$69cf2c234645cad678419ff6abffac90455e2fec",
+                "@id": "urn:uuid:e2b895ee-ec6d-44d9-8191-adabdb4db3f5"
+            },
+            {
+                "class": "File",
+                "location": "../data/8b/8be65f235596b839a0eb12c72e0bb6470cf45980",
+                "basename": "ro-crate-metadata.json",
+                "checksum": "sha1$8be65f235596b839a0eb12c72e0bb6470cf45980",
+                "@id": "urn:uuid:f136a4ea-2747-4009-81bc-57307a4c88ac"
+            },
+            {
+                "class": "File",
+                "location": "../data/ec/ecb7b653f0a196f5d2cad50f17a9116cc231d2b0",
+                "basename": "boundary.json",
+                "checksum": "sha1$ecb7b653f0a196f5d2cad50f17a9116cc231d2b0",
+                "@id": "urn:uuid:f3b2d679-0a86-4162-a673-4be34ad5aedd"
+            },
+            {
+                "class": "File",
+                "location": "../data/fe/fe587cf8d57d704584887f96cfac71c6e9bb1e59",
+                "basename": "checkpoint-receipt.json",
+                "checksum": "sha1$fe587cf8d57d704584887f96cfac71c6e9bb1e59",
+                "@id": "urn:uuid:69d5b684-ecb3-4539-a109-433f647deec9"
+            },
+            {
+                "class": "File",
+                "location": "../data/1e/1e9e434269d5567827d8d9a7d8993f4853fcb85c",
+                "basename": "contract.json",
+                "checksum": "sha1$1e9e434269d5567827d8d9a7d8993f4853fcb85c",
+                "@id": "urn:uuid:40c364dd-3ac4-4c9e-9173-1a1b8e405d65"
+            }
+        ]
+    }
+}

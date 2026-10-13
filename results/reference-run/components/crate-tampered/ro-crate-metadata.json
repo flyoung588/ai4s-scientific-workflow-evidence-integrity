@@ -1,0 +1,79 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.3/context",
+    "@graph": [
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "datePublished": "2026-10-13T05:19:13+00:00",
+            "description": "Local component evidence only; not a scientific validation certificate.",
+            "hasPart": [
+                {
+                    "@id": "input.json"
+                },
+                {
+                    "@id": "result.json"
+                },
+                {
+                    "@id": "evaluation-report.json"
+                }
+            ],
+            "mentions": [
+                {
+                    "@id": "#evaluation-attempt"
+                }
+            ],
+            "name": "Synthetic negative-control package"
+        },
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "about": {
+                "@id": "./"
+            },
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.3"
+            }
+        },
+        {
+            "@id": "input.json",
+            "@type": "File"
+        },
+        {
+            "@id": "result.json",
+            "@type": "File"
+        },
+        {
+            "@id": "evaluation-report.json",
+            "@type": "File"
+        },
+        {
+            "@id": "#old-evaluator",
+            "@type": "SoftwareApplication",
+            "name": "Original integer evaluator",
+            "softwareVersion": "baseline-20261012"
+        },
+        {
+            "@id": "#evaluation-attempt",
+            "@type": "CreateAction",
+            "actionStatus": {
+                "@id": "http://schema.org/CompletedActionStatus"
+            },
+            "description": "The evaluator returned success for a numerically equal but foreign-bound result. This is a negative control, not independent scientific validation.",
+            "instrument": {
+                "@id": "#old-evaluator"
+            },
+            "name": "Actual original evaluator execution",
+            "object": [
+                {
+                    "@id": "input.json"
+                },
+                {
+                    "@id": "result.json"
+                }
+            ],
+            "result": {
+                "@id": "evaluation-report.json"
+            }
+        }
+    ]
+}

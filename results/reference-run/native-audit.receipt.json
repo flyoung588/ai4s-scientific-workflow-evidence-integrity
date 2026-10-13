@@ -1,0 +1,18 @@
+{
+  "command": [
+    "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python",
+    "/private/tmp/ai4s-final-package-20261013/AI4S_Scientific_Workflow_Evidence_Integrity_v1.0.0/src/cwl/audit_native.py",
+    "--bag",
+    "/private/tmp/ai4s-final-clean-20261013/results-main/native/provenance",
+    "--out",
+    "/private/tmp/ai4s-final-clean-20261013/results-main/native/audit",
+    "--boundary",
+    "/private/tmp/ai4s-final-clean-20261013/results-main/native/outputs/bundle/boundary.json"
+  ],
+  "end_unix": 1791868768.778928,
+  "exit_code": 0,
+  "name": "native-audit",
+  "start_unix": 1791868768.656054,
+  "stderr": "data/00/0048ac81d2c127e617971354fe84f2bc12dd7877 sha1 validation failed: expected=\"0048ac81d2c127e617971354fe84f2bc12dd7877\" found=\"6aa8abd2d692be02333ba99cca5888b8159a269d\"\n",
+  "stdout": "{\n  \"bagit_version\": \"1.9.0\",\n  \"rdflib_version\": \"7.6.0\",\n  \"original_manifest_validation\": \"PASS\",\n  \"tampered_manifest_validation\": \"REJECTED\",\n  \"changed_relative_file\": \"data/00/0048ac81d2c127e617971354fe84f2bc12dd7877\",\n  \"tamper_preserved_length\": true,\n  \"failure\": \"Bag validation failed: data/00/0048ac81d2c127e617971354fe84f2bc12dd7877 sha1 validation failed: expected=\\\"0048ac81d2c127e617971354fe84f2bc12dd7877\\\" found=\\\"6aa8abd2d692be02333ba99cca5888b8159a269d\\\"\",\n  \"prov_graph_parse\": {\n    \"triples\": 828,\n    \"activities\": 5,\n    \"used_relations\": 0,\n    \"generation_relations\": 0,\n    \"qualified_usage_relations\": 40,\n    \"qualified_generation_relations\": 11\n  },\n  \"actual_boundary\": {\n    \"claim_disposition\": \"WITHHOLD_FIXTURE_CLAIM\",\n    \"evidence_integrity\": \"VERIFIED_LOCAL\",\n    \"execution\": \"COMPLETED\",\n    \"extra_resources_authorized\": false,\n    \"fault\": \"numerical-failure\",\n    \"fixture_numeric_status\": \"FAILED_FIXTURE\",\n    \"linkage\": \"VERIFIED_LOCAL\",\n    \"real_scientific_status\": \"NOT_EVALUATED\"\n  },\n  \"scope\": \"Native workflow provenance and manifest integrity only; default CWL payload SHA1, no authentication or scientific validation\"\n}\n"
+}

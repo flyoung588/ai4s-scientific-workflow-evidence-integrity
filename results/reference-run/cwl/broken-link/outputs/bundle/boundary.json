@@ -1,0 +1,10 @@
+{
+  "claim_disposition": "WITHHOLD_INVALID_EVIDENCE_LINK",
+  "evidence_integrity": "VERIFIED_LOCAL",
+  "execution": "COMPLETED",
+  "extra_resources_authorized": false,
+  "fault": "broken-link",
+  "fixture_numeric_status": "SUPPORTED_FIXTURE",
+  "linkage": "REJECTED_LINKAGE",
+  "real_scientific_status": "NOT_EVALUATED"
+}

@@ -1,0 +1,14 @@
+{
+  "command": [
+    "/private/tmp/ai4s-final-clean-20261013/.venv/bin/python",
+    "/private/tmp/docker_tmpcafdgq_4/stg5c20393a-5bde-4829-a591-112474005683/evaluator.py",
+    "/private/tmp/docker_tmpcafdgq_4/stgfaa069fc-8660-47eb-8009-1747d07e935e/input.json",
+    "/private/tmp/docker_tmpcafdgq_4/stgb80c9af9-5308-4b32-9f99-ad8f4a1381a1/contract.json",
+    "/private/tmp/docker_tmpcafdgq_4/stgfd5e679f-482e-497d-a8ee-beafa3c7cb95/result.json",
+    "/private/tmp/docker_tmpcafdgq_4/stg99dda1d2-9e1d-4893-a182-245485a37adc/resume-receipt.json"
+  ],
+  "evaluator_sha256": "2b6e8b5ccc8d37bf7a1ae2c695a14ea867b8652fceef7f4b39e806c2d51b5533",
+  "exit_code": 0,
+  "stderr": "",
+  "stdout": "{\"numeric_status\": \"FAILED_FIXTURE\", \"expected\": 767, \"observed\": 0, \"integrity_status\": \"VERIFIED_LOCAL\", \"checks\": {\"input_binding\": true, \"experiment_binding\": true, \"producer_result_binding\": true, \"checkpoint_binding\": true, \"side_effect_idempotency\": true}, \"claim_disposition\": \"WITHHOLD_FIXTURE_CLAIM\", \"subject_result_sha256\": \"813bfb6503115d884aaeaa08857b7ab1cbd34e929b200078e3777903073d9fc6\", \"real_scientific_status\": \"NOT_EVALUATED\", \"independent_review\": \"NOT_PERFORMED\"}\n"
+}

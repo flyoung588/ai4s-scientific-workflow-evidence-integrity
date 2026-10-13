@@ -1,0 +1,10 @@
+{
+  "claim_disposition": "RECORD_SCOPED_FIXTURE",
+  "evidence_integrity": "VERIFIED_LOCAL",
+  "execution": "COMPLETED",
+  "extra_resources_authorized": false,
+  "fault": "none",
+  "fixture_numeric_status": "SUPPORTED_FIXTURE",
+  "linkage": "VERIFIED_LOCAL",
+  "real_scientific_status": "NOT_EVALUATED"
+}

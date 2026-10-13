@@ -1,0 +1,32 @@
+[
+  {
+    "attributes": {
+      "noise.1": "x",
+      "noise.2": "y"
+    },
+    "context": {
+      "span_id": "0xd88331c92419c2bd",
+      "trace_id": "0xb8b39e96857e5aef12b3532c6f372fef",
+      "trace_state": "[]"
+    },
+    "end_time": "2026-10-13T05:19:13.650304Z",
+    "events": [],
+    "kind": "SpanKind.INTERNAL",
+    "links": [],
+    "name": "otel-limited",
+    "parent_id": null,
+    "resource": {
+      "attributes": {
+        "service.name": "unknown_service",
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.39.0"
+      },
+      "schema_url": ""
+    },
+    "start_time": "2026-10-13T05:19:13.650286Z",
+    "status": {
+      "status_code": "OK"
+    }
+  }
+]

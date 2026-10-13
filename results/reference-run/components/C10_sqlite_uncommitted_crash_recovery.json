@@ -1,0 +1,14 @@
+{
+  "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+  "expectation_met": true,
+  "id": "C10_sqlite_uncommitted_crash_recovery",
+  "observed": {
+    "child_rc": -9,
+    "recovered": [
+      8,
+      123
+    ],
+    "stderr": ""
+  },
+  "scope_limit": "Real SIGKILL rollback with local SQLite; does not test power-loss/fsync/hardware durability."
+}

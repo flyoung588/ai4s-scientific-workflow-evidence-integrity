@@ -1,0 +1,10 @@
+{
+  "binding": {
+    "code_sha256": "f7c9906089f45f55bfb69492469de4204df97daba0fa667f0e898a39c90bcd57",
+    "input_sha256": "ddce54e5245f2c0b3ec33ba3d6a427027b8c8e7f88add12121129b3a87d0f547"
+  },
+  "experiment": "experiment-A",
+  "i": 8,
+  "producer_attempt": "attempt-1",
+  "x": 994
+}

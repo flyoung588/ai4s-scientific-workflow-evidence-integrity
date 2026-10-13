@@ -1,0 +1,18 @@
+{
+  "evidence_class": "REAL_COMPONENT_SYNTHETIC_INPUT",
+  "expectation_met": true,
+  "id": "C08_retry_repeats_committed_effect",
+  "observed": {
+    "safe_rows": 1,
+    "tenacity_attempts_safe": [
+      1,
+      2
+    ],
+    "tenacity_attempts_unsafe": [
+      1,
+      2
+    ],
+    "unsafe_rows": 2
+  },
+  "scope_limit": "Actual Tenacity and SQLite; not K8s/Argo exactly-once test. Unique effect key mitigates this DB case, not all external side effects."
+}

@@ -1,0 +1,22 @@
+{
+  "artifacts": {
+    "anchor.json": "ed01bb8d811722c3ee4c015145dec9a8c51d401322a57de45791866260119726",
+    "attempt-spans.json": "1c3002147297accb9123ea49228e20e4e89cb566654085ae0593745be0f307ef",
+    "checkpoint-receipt.json": "59fcd2967e923626ffeb535d40600f8718849d20c9dd816a17a210c191888876",
+    "checkpoint.json": "393f5e3ac291232a6dcce2c2c75d6b54fba48f47ce4ed13c34cf52c66762fd7b",
+    "contract.json": "b2991c1584da1fb517e1bf75cb7603414663ecf5d45ca7476d4569fbe59c17d3",
+    "effects.db": "659c2014ade844b6fdcaee068bdee34dbd54ae49d0c17834e0fafdfcdd9d4b37",
+    "evaluation-receipt.json": "bae9b950cc58d15f36a2910981553e6b3ae271d9c77c3b8dae53fee1e2db5abe",
+    "evaluation-report.json": "681966da4b55db0876748c9489f13d6086fc4715915d98d32417a280747c6283",
+    "input.json": "ddce54e5245f2c0b3ec33ba3d6a427027b8c8e7f88add12121129b3a87d0f547",
+    "result.json": "06b795201f01e104a33bc552fb576b05aeac9d07c8a992db9b38a5957ef7f657",
+    "resume-receipt.json": "f21346756bb65e914a9d5df4f7a5183b433c985ea0c4d975fc88182170e1757f"
+  },
+  "authority": "LOCAL_RECORDS_NOT_SIGNED",
+  "links": {
+    "evaluation_subject_result_sha256": "06b795201f01e104a33bc552fb576b05aeac9d07c8a992db9b38a5957ef7f657",
+    "producer_result_sha256": "06b795201f01e104a33bc552fb576b05aeac9d07c8a992db9b38a5957ef7f657"
+  },
+  "origin": "SYNTHETIC_FIXTURE",
+  "telemetry_is_not_sole_link": true
+}
